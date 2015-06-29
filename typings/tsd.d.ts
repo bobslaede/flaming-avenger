@@ -26,3 +26,4 @@
 /// <reference path="zone/zone.d.ts" />
 /// <reference path="rx/rx-lite.d.ts" />
 /// <reference path="rx/rx.d.ts" />
+/// <reference path="firebase/firebase.d.ts" />
