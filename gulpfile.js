@@ -11,6 +11,7 @@ var browserify = require('browserify');
 var tsify = require('tsify');
 var runSequence = require('run-sequence');
 var clean = require('gulp-clean');
+var gutil = require('gulp-util');
 
 var polymer = require('./lib/bower-polymer');
 
