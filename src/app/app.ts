@@ -1,60 +1,31 @@
 /// <reference path="../../typings/tsd.d.ts" />
 
 import {Component, View, bootstrap, NgFor} from 'angular2/angular2'
-
-interface IItem {
-    name: string
-}
+import {RouteConfig, RouterOutlet, RouterLink, Router, Location} from 'angular2/router';
+import {Home} from './home/home';
 
 @Component({
     selector: 'my-app'
 })
+@RouteConfig([
+    { path: '/home', as: 'home', component: Home}
+])
 @View({
-    directives: [NgFor],
+    directives: [NgFor, RouterOutlet],
     template: `
-        <paper-drawer-panel>
-          <paper-header-panel drawer>
-            <paper-toolbar (click)="stuff2($event)">
-              <div>Application</div>
-            </paper-toolbar>
-                <paper-menu>
-                    <paper-item *ng-for="#item of items; #i = index">
-                        <paper-item-body>
-                            {{item.name}}
-                        </paper-item-body>
-                    </paper-item>
-                </paper-menu>
-          </paper-header-panel>
-          <paper-header-panel main>
-            <paper-toolbar>
-              <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
-              <div>Title</div>
-            </paper-toolbar>
-            <div> Main content...
-                <div class="icons">
-                    eject
-                </div>
+            <div>
+                <router-outlet></router-outlet>
             </div>
-          </paper-header-panel>
-        </paper-drawer-panel>
     `
 })
 export class MyApp {
 
-    items:IItem[]
 
-    constructor() {
-        this.items = [{
-            name: 'foo'
-        }]
+    constructor(private router:Router) {
+
+        this.router.navigate('/home');
+
     }
 
-    stuff($event:Event, item:IItem) {
-        console.log($event, item);
-    }
-
-    stuff2($event:MouseEvent) {
-        console.log($event);
-    }
 
 }
