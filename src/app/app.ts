@@ -18,13 +18,11 @@ interface IItem {
               <div>Application</div>
             </paper-toolbar>
                 <paper-menu>
-                    <template [ng-for] #item [ng-for-of]="items" #i="index">
-                        <paper-item tabindex="0" (click)="stuff($event, item)">
-                            <paper-item-body two-line>
-                                {{item.name}}
-                            </paper-item-body>
-                        </paper-item>
-                    </template>
+                    <paper-item *ng-for="#item of items; #i = index">
+                        <paper-item-body>
+                            {{item.name}}
+                        </paper-item-body>
+                    </paper-item>
                 </paper-menu>
           </paper-header-panel>
           <paper-header-panel main>
@@ -43,7 +41,7 @@ interface IItem {
 })
 export class MyApp {
 
-    items:[IItem]
+    items:IItem[]
 
     constructor() {
         this.items = [{
