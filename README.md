@@ -1,5 +1,9 @@
 # flaming-avenger
 
+This is a typescript, polymer and angular2 test repo.
+Everything can be run from the `src` directory without building it,
+but once built, it will be run from the `dist` directory.
+
 ## install
 
 ```bash
