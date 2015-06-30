@@ -21,6 +21,10 @@ Open `src/bower_components/font-roboto/roboto.html`, change the path in the url 
 
 run `src/index.html` in a browser
 
+```bash
+$ npm start
+```
+
 ## build and run
 
 ```bash
