@@ -82,6 +82,9 @@
     },
     "angular-protractor/angular-protractor.d.ts": {
       "commit": "4207593c012565a7ea800ed861ffbe5011e7a501"
+    },
+    "firebase/firebase.d.ts": {
+      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
     }
   }
 }

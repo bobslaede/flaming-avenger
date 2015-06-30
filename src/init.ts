@@ -1,6 +1,10 @@
 /// <reference path="../typings/tsd.d.ts" />
 
-import {bootstrap} from 'angular2/angular2'
-import {MyApp} from 'app/app';
+import {bootstrap, bind} from 'angular2/angular2'
+import {routerInjectables, HashLocationStrategy, Location, LocationStrategy} from 'angular2/router';
 
-bootstrap(MyApp);
+import {MyApp} from './app/app';
+
+bootstrap(MyApp, [
+    routerInjectables
+]);
