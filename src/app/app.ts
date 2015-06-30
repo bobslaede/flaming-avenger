@@ -20,12 +20,8 @@ import {Home} from './home/home';
 })
 export class MyApp {
 
-
     constructor(private router:Router) {
-
         this.router.navigate('/home');
-
     }
-
 
 }
