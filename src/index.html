@@ -26,6 +26,8 @@
 <script src="lib/typescript.js"></script>
 <!--<script src="bower_components/es6-module-loader/dist/es6-module-loader-dev.src.js"></script>-->
 <script>
+    var defaultExtension = '.ts';
+
     var conf = {
         baseURL: './',
         transpiler: 'typescript',
@@ -64,20 +66,24 @@
     baseURI = baseURI.substr(0, baseURI.lastIndexOf('/') + 1);
 
     var hasExt = function (file) {
+        if (!file) return false;
         return ['js', 'ts'].indexOf(file.split('.').pop()) > -1;
     }
 
     var ext = function (file) {
-        return hasExt(file) && file.split('.').pop();
+        if (!file) return undefined;
+        return hasExt(file) && ('.' + file.split('.').pop())
     }
 
     var norm = System.normalize;
-    System.normalize = function (a, b, c) {
+    System.normalize = function (name, parent, parentAddress) {
+        var parentExt = ext(parent);
         return Promise.resolve(norm.apply(System, arguments))
             .then(function (normed) {
                 if (normed.indexOf(baseURI) > -1) { // relative to this subpath
                     if (!ext(normed)) {
-                        normed = normed + '.ts';
+                        console.log('parent ext: %s from %s', parentExt, parent);
+                        normed = normed + (parentExt || defaultExtension);
                     }
                 }
                 if (!ext(normed)) {
