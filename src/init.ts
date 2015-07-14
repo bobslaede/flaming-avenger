@@ -5,6 +5,13 @@ import {routerInjectables, HashLocationStrategy, Location, LocationStrategy} fro
 
 import {MyApp} from './app/app';
 
+let hashLocationInjectable = bind(LocationStrategy).toClass(HashLocationStrategy);
+
+let injectables = [
+    routerInjectables,
+    hashLocationInjectable
+]
+
 bootstrap(MyApp, [
-    routerInjectables
+    injectables
 ]);

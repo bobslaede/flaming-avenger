@@ -26,3 +26,4 @@
 /// <reference path="rx/rx-lite.d.ts" />
 /// <reference path="rx/rx.d.ts" />
 /// <reference path="firebase/firebase.d.ts" />
+/// <reference path="angular2/router.d.ts" />

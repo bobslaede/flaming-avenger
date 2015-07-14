@@ -6,10 +6,10 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "angular2/angular2.d.ts": {
-      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
     },
     "es6-promise/es6-promise.d.ts": {
-      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
     },
     "hammerjs/hammerjs.d.ts": {
       "commit": "22c44d95912a07f81c103a694330b15b92f7cb40"
@@ -24,10 +24,10 @@
       "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
     },
     "rx/rx.d.ts": {
-      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
     },
     "rx/rx-lite.d.ts": {
-      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
     },
     "rx/rx.aggregates.d.ts": {
       "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
@@ -85,6 +85,9 @@
     },
     "firebase/firebase.d.ts": {
       "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+    },
+    "angular2/router.d.ts": {
+      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
     }
   }
 }
