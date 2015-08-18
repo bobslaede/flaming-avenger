@@ -6,88 +6,91 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "angular2/angular2.d.ts": {
-      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "es6-promise/es6-promise.d.ts": {
-      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "hammerjs/hammerjs.d.ts": {
-      "commit": "22c44d95912a07f81c103a694330b15b92f7cb40"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "jasmine/jasmine.d.ts": {
-      "commit": "055b3172e8eb374a75826710c4d08677872620d3"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "node/node.d.ts": {
-      "commit": "d5f92f93bdb49f332fa662ff1d0cc8700f02e4dc"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.all.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.d.ts": {
-      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx-lite.d.ts": {
-      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.aggregates.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.time.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.time-lite.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.async.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.async-lite.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.binding.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.binding-lite.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.coincidence.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.coincidence-lite.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.experimental.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.joinpatterns.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.virtualtime.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.testing.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.backpressure.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "rx/rx.backpressure-lite.d.ts": {
-      "commit": "3882d337bb0808cde9fe4c08012508a48c135482"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "selenium-webdriver/selenium-webdriver.d.ts": {
-      "commit": "be0b6b394f77a59e192ad7cfec18078706e44db5"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "zone/zone.d.ts": {
       "commit": "055b3172e8eb374a75826710c4d08677872620d3"
     },
     "angular-protractor/angular-protractor.d.ts": {
-      "commit": "4207593c012565a7ea800ed861ffbe5011e7a501"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "firebase/firebase.d.ts": {
-      "commit": "6f04d25ad38982d372cc3cda62fa4c0eef9e24d7"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     },
     "angular2/router.d.ts": {
-      "commit": "f999dcd9543265848a33fa3bb8379bf0393d33c8"
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
+    },
+    "touch-events/touch-events.d.ts": {
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
     }
   }
 }

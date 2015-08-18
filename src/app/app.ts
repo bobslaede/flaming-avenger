@@ -31,7 +31,11 @@ import {User} from './user/user';
 export class MyApp {
 
     constructor(private router:Router) {
-        this.router.navigate('/home');
+        this.navigateHome()
+    }
+    
+    navigateHome() {
+        this.router.navigate('/home')
     }
 
 }

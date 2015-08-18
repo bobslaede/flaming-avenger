@@ -56,9 +56,9 @@ gulp.task('build:elements', function () {
 
 gulp.task('build:css', function () {
 
-    return gulp.src('src/**/*.less')
+    return gulp.src('src/styles/*.less')
         .pipe(less())
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('dist/styles'))
 
 });
 
@@ -74,10 +74,11 @@ gulp.task('build:js', function () {
         .bundle()
         .pipe(source('init.js'))
         .pipe(buffer())
+        .pipe(uglify())
         .pipe(gulp.dest('dist'))
 
 })
 
 gulp.task('build', function (done) {
-    runSequence('build:clean', ['build:elements', 'build:css', 'build:js'], 'build:html', done);
+    runSequence('build:clean', ['build:elements', 'build:js'], 'build:html', 'build:css', done);
 })
