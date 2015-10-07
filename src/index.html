@@ -23,7 +23,6 @@
 
 <!-- build:remove -->
 <script src="../node_modules/systemjs/dist/system.src.js"></script>
-<script src="../node_modules/typescript/bin/typescript.js"></script>
 <script>
     var defaultExtension = '.ts';
 
@@ -39,6 +38,7 @@
         },
         defaultExtension: false,
         paths: {
+            'typescript' : '../node_modules/typescript/lib/typescript.js',
             'rx': '../node_modules/angular2/node_modules/rx/dist/rx.js',
             'zone': '../node_modules/angular2/node_modules/zone.js/dist/zone.js',
             'angular2/*': '../node_modules/angular2/*.js'

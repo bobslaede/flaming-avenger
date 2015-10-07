@@ -1,12 +1,13 @@
 /// <reference path="../../../typings/tsd.d.ts" />
 
-import {Component, View} from 'angular2/angular2';
+import {Component, View, ViewEncapsulation} from 'angular2/angular2';
 import {Router} from 'angular2/router';
 
 @Component({
     selector: 'home'
 })
 @View({
+    encapsulation: ViewEncapsulation.Native,
     template: `
         <h1>home</h1>
     `

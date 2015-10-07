@@ -1,6 +1,6 @@
 /// <reference path="../../typings/tsd.d.ts" />
 
-import {Component, View, bootstrap, NgFor} from 'angular2/angular2'
+import {Component, View, bootstrap, NgFor, ViewEncapsulation} from 'angular2/angular2'
 import {RouteConfig, RouterOutlet, RouterLink, Router, Location, routerDirectives} from 'angular2/router';
 import {Home} from './home/home';
 import {User} from './user/user';
@@ -14,6 +14,7 @@ import {User} from './user/user';
 ])
 @View({
     directives: [NgFor, RouterOutlet, routerDirectives],
+    encapsulation: ViewEncapsulation.Native,
     template: `
             <nav>
                 <ul>
@@ -35,7 +36,7 @@ export class MyApp {
     }
     
     navigateHome() {
-        this.router.navigate('/home')
+
     }
 
 }

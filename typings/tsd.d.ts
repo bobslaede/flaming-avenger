@@ -28,3 +28,4 @@
 /// <reference path="firebase/firebase.d.ts" />
 /// <reference path="angular2/router.d.ts" />
 /// <reference path="touch-events/touch-events.d.ts" />
+/// <reference path="../node_modules/typescript/lib/lib.d.ts" />
